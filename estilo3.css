@@ -1,0 +1,159 @@
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.colunas {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.coluna1,
+.coluna2,
+.coluna3 {
+    box-sizing: border-box;
+}
+
+.coluna1 {
+    width: 35%;
+    background-color: #ffeedd;
+    color: #657b8b;
+    padding-bottom: 30px;
+}
+
+.coluna2 {
+    width: 40%;
+    background-color: #657b8b;
+    color: #ffeedd;
+    padding-bottom: 30px;
+}
+
+.experiencias-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.coluna3 {
+    width: 25%;
+    background-color: #657b8b;
+    border: 7px rgb(36, 42, 108) dotted;
+    color: #ffeedd;
+    padding-bottom: 30px;
+}
+
+.nome {
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titulo2 {
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.titulo3,
+.titulo5 {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.titulo4 {
+    font-size: 20px;
+    color: #657b8b;
+    background-color: #ffeedd;
+    border: 1px solid #dbbea2;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 10px auto;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.titulo4:hover {
+    color: #495ba2;
+    transform: scale(1.05);
+}
+
+.foto {
+    height: 250px;
+    width: 150px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #c6af98;
+}
+
+.blocofoto {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bloco3,
+.bloco4 {
+    margin-left: 30px;
+}
+
+.bloco5 {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    margin: 20px 30px;
+    padding: 20px;
+    border: 1px solid #ffeedd;
+    border-radius: 10px;
+}
+
+.experiencias ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+.experiencias h4 {
+    font-weight: normal;
+    margin: 5px 0;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #ffeedd;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin: 5px 0 15px 0;
+}
+
+h5 {
+    margin-top: 10px;
+    margin-left: 20px;
+}

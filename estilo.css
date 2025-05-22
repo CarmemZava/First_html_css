@@ -23,7 +23,7 @@ body {
     background-color: #657b8b;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     position: relative; 
 }
@@ -69,16 +69,18 @@ body {
 
 .colunasAB {
     display: flex;
-    flex-direction: row;
-    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 100px;
 }
 
 .colunaA {
-    width: 50%;
+    width: auto;
 }
 
 .colunaB {
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
